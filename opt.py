@@ -14,8 +14,8 @@ for i in range(len(virus)-len(vaccine)):
     print(i, mr)
 exit(0)
 """
-
-# vaccine starts at 21508 with a 67% match
+#adding a sample file
+# vaccine starts at 21508 with a 67 % match
 # spike protein starts at 21562
 vvirus = virus[21508:21508+len(vaccine)]
 
